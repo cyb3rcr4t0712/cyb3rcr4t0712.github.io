@@ -1,0 +1,101 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #9fb873; /* Body background color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Hero section styles */
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://raw.githubusercontent.com/cyb3rcr4t0712/MinorProject-1.1/27b6ef35bf647bb1c9294e30874637dedd9e0af5/1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 10;
+    padding: 20px;
+}
+
+.navbar button {
+    padding: 8px 25px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 13px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar .home {
+    margin-left: 0;
+}
+
+.container {
+    width: 50%;
+    height: 100vh;
+    background: rgba(86, 86, 86, 0.3);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.info {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.info h1 {
+    font-size: 70px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.info p {
+    color: #f0eef1;
+    font-size: 15px;
+}
+
+.info a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
